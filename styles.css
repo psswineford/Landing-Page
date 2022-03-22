@@ -10,7 +10,6 @@
 }
 
 .logo {
-    display: flex;
     margin-left: 50px;
     justify-content: left;
 }
@@ -24,7 +23,6 @@
 }
 
 .menu-item {
-    display: flex;
     justify-content: space-around;
     padding: 10px;
     color: lightgrey;
@@ -41,7 +39,7 @@
 }
 
 .main-info-text {
-    display: flex;
+    /* display: flex; */
     color: white;
     margin-left: 50px;
     justify-content: left;
@@ -52,7 +50,7 @@
 }
 
 .main-info-paragraph {
-    display: flex;
+    /* display: flex; */
     color: lightgray;
     margin-left: 50px;
     justify-content: left;
@@ -61,7 +59,7 @@
 }
 
 .main-info-button {
-    display: flex;
+    /* display: flex; */
     margin-left: 50px;
     
 }
@@ -69,6 +67,7 @@
 .main-info-image {
     width: 400px;
     height: 200px;
+    margin-right: 50px;
 }
 
 .main-info-button {
@@ -79,12 +78,29 @@
     text-align: center;
 }
 
-/* random info container section */
-
 .random-info-container {
-    
-    background-color: rgb(63, 61, 61);
     margin: auto;
     width: 70%;
     padding-top: 10px;
 }
+
+.random-info-header {
+    text-align: center;
+}
+
+.rndm-img-block {
+    display: flex;
+    margin: auto;
+    align-content: space-around;
+    justify-content:  space-around;
+}
+
+.rndm-img {
+    display: flex;
+    width: 200px;
+}
+
+
+
+
+
