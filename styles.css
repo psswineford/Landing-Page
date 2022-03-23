@@ -78,6 +78,7 @@
     text-align: center;
 }
 
+/* Some Random Information Section */
 .random-info-container {
     margin: auto;
     width: 70%;
@@ -88,19 +89,73 @@
     text-align: center;
 }
 
-.rndm-img-block {
+.info-block {
     display: flex;
-    margin: auto;
-    align-content: space-around;
-    justify-content:  space-around;
+    flex-direction: row;
+}
+
+.rndm-img-block {
+   align-items: center;
+   width: 200px;
+   padding: 10px;
 }
 
 .rndm-img {
-    display: flex;
     width: 200px;
 }
 
+/* Quote Section */
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 194, 194);
+    margin: auto;
+    width: 70%;
+    padding-top: 10px;
+}
 
+.quote-content {
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    padding-left: 30%;
+    padding-right: 30%;
+}
 
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 30%;
+}
 
+/* Call to action section */
+
+.call-to-action {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    padding-top: 10px;
+}
+
+.action-text {
+    background-color: rgb(47, 119, 228);
+    color: white;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.action-button {
+    display: flex;
+    flex-grow: 2;
+    background-color: rgb(47, 119, 228);
+    justify-content: right;
+    align-items: center;
+    padding-right: 80px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
